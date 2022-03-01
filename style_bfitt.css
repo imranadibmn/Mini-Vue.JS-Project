@@ -1,0 +1,63 @@
+* {
+    margin:0px;
+    padding:10px;
+    box-sizing:border-box;
+  }
+  html, body {
+    background:#ff5858;
+    height:100%;
+  }
+
+  .form {
+    padding-left: 30px;
+    width: 50%;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+  
+  .caption {
+    font-family: 'Bungee Inline';
+    color:whitesmoke;
+    font-size: 30px;
+  }
+
+  .logo {
+    font-family: 'Bungee Inline';
+    color:whitesmoke;
+    font-size: 50px;
+  }
+
+  .box {
+    font-size: 20px;
+    width: 450px;
+    height: 350px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px rgb(65, 65, 65);
+    border-radius: 25px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    width: 100%;
+    color:whitesmoke;
+    padding: 12px 12px 12px 0;
+    display: block;
+  }
